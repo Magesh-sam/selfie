@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    min-height: 100vh;
+    gap: 35px;
+    position: relative;
+}
+img{
+    width: 300px;
+    aspect-ratio: 1/1;
+    place-self: center;
+    border-radius: 15px;
+}
+
+button{
+    width: 150px;
+    place-self: center;
+    border: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background: rgb(70, 74, 197);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: 1px solid black;
+    width: fit-content;
+    place-self: center;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    background: #fd5;
+
+}
+video{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 10px;
+    right: 10px;
+}
